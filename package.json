@@ -1,18 +1,18 @@
 {
   "name": "auoh-robot-cloud",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "dependencies": {
-    "express": "^4.17.1",
-    "start": "node app.js",
-    "start dev": "nodemon app.js"
+    "express": "^4.17.1"
+    
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "start dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,6 @@
   "bugs": {
     "url": "https://github.com/MariaShulgina19/AUOH-robot-cloud/issues"
   },
-  "homepage": "https://github.com/MariaShulgina19/AUOH-robot-cloud#readme"
+  "homepage": "https://github.com/MariaShulgina19/AUOH-robot-cloud#readme",
+  "description": ""
 }

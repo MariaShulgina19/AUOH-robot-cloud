@@ -1,4 +1,4 @@
-const mqtt_client = mqtt.connect('mqtt-broker-maria.herokuapp.com/');
+const mqtt_client = mqtt.connect('wss://mqtt-broker-maria.herokuapp.com');
 mqtt_client.on('connect', () => {
  console.log('connected to mqtt broker');
  mqtt_client.subscribe('joints')
